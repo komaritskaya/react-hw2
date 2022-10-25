@@ -27,5 +27,6 @@ rules: {
   'react/prop-types': 'off',
   'no-case-declarations': 'off',
   'react/function-component-definition': 'off',
-  'react/jsx-indent-props': 'off'
+  'react/jsx-indent-props': 'off',
+  'linebreak-style': 'off'
 }
