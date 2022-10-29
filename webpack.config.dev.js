@@ -23,11 +23,6 @@ module.exports = {
         port: 3001,
         open: true
     },
-    optimization: {
-        splitChunks: {
-            chunks: 'all',
-        },
-    },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
@@ -54,7 +49,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    { loader: MiniCssExtractPlugin.loader },
+                    'style-loader',
                     'css-loader'
                 ],
             },
