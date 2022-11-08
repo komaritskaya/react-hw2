@@ -1,0 +1,21 @@
+.movies-list {
+    padding-bottom: 22px;
+}
+
+.movies-list__count {
+    color: var(--main-text-color);
+    padding: 24px 0 28px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.movies-list__grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movies-list__grid-item {
+    width: 30%;
+}

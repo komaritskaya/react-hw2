@@ -1,0 +1,13 @@
+body {
+    /* COLORS */
+    --main-background-color: #232323;
+    --secondary-background-color: #424242;
+    --main-text-color: #FFFFFF;
+    --decorations-color: #F65261;
+}
+  
+  /* @media (min-width: 768px) {
+    body {
+      --spacing: 20px;
+    }
+  } */
