@@ -1,0 +1,32 @@
+env:
+  browser: true
+  es2021: true
+  commonjs: true
+extends:
+  - 'airbnb'
+  - 'airbnb/hooks'
+  - 'airbnb-typescript'
+  - 'eslint:recommended'
+  - 'plugin:react/recommended'
+  - 'plugin:@typescript-eslint/eslint-recommended'
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project: './tsconfig.json'
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: latest
+  sourceType: module
+plugins:
+  - 'react'
+  - '@typescript-eslint'
+settings:
+  react:
+    version: '18'
+rules: {
+  'react/jsx-one-expression-per-line': 'off',
+  'react/prop-types': 'off',
+  'no-case-declarations': 'off',
+  'react/function-component-definition': 'off',
+  'react/jsx-indent-props': 'off',
+  'linebreak-style': 'off'
+}
