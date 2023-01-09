@@ -1,0 +1,10 @@
+.page-footer {
+    background-color: var(--secondary-background-color);
+}
+
+.page-footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+}
